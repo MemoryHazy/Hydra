@@ -68,4 +68,53 @@ header .navigation .buttons .btn2 {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
   border-radius: 40px;
   border: none;
+}
+header .hero {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+header .hero .hero-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+header .hero .hero-heading h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+header .hero .hero-heading h1 span {
+  color: #C0B7E8;
+}
+header .hero .hero-heading p {
+  margin-top: 35px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+header .hero .hero-heading .btn {
+  display: flex;
+  margin-top: 65px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+header .hero .hero-heading .btn button {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
