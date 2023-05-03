@@ -101,7 +101,7 @@ header .hero .hero-heading p {
 }
 header .hero .hero-heading .btn {
   display: flex;
-  margin-top: 65px;
+  margin-top: 120px;
   align-items: center;
   justify-content: flex-start;
   gap: 40px;
@@ -109,7 +109,7 @@ header .hero .hero-heading .btn {
 header .hero .hero-heading .btn button {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
   border-radius: 40px;
-  padding: 15px 40px;
+  padding: 18px 44px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -117,11 +117,56 @@ header .hero .hero-heading .btn button {
   line-height: 15px;
   color: #343045;
   border: none;
+  cursor: pointer;
 }
 header .hero .hero-photo {
   width: 524px;
   height: 455px;
-  background-color: green;
   margin-top: 125px;
   border-radius: 100px 100px 100px 240px;
+  background-image: url(/Assets/images/photo.png);
+  box-shadow: 10px #ffffff;
+}
+
+.contact {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 90px;
+  padding: 45px 65px;
+  justify-content: space-between;
+}
+.contact .rectangle {
+  height: 115px;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+}
+.contact .location {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact .location .para {
+  margin-left: 15px;
+}
+.contact .location h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.contact .location p {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */
