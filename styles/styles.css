@@ -117,4 +117,11 @@ header .hero .hero-heading .btn button {
   line-height: 15px;
   color: #343045;
   border: none;
+}
+header .hero .hero-photo {
+  width: 524px;
+  height: 455px;
+  background-color: green;
+  margin-top: 125px;
+  border-radius: 100px 100px 100px 240px;
 }/*# sourceMappingURL=styles.css.map */
