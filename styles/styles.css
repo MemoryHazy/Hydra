@@ -388,4 +388,27 @@ header .hero .hero-photo {
   height: 190.92px;
   border-radius: 100px;
   box-shadow: #433D60;
+}
+
+.tech {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.tech .banner {
+  display: flex;
+  width: 100%;
+  background: #211E2E;
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 160px;
+  background-image: url(/Assets/images/gogo.png);
+}
+.tech .partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
 }/*# sourceMappingURL=styles.css.map */
