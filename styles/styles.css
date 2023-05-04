@@ -305,4 +305,87 @@ header .hero .hero-photo {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.team {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 90px;
+  flex-direction: row;
+  gap: 10px;
+}
+.team .profile {
+  width: 310px;
+  height: 511px;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team .profile .photo {
+  width: 190.92px;
+  height: 190.92px;
+  background-image: url(/Assets/images/simulation.png);
+  border-radius: 100px;
+  box-shadow: #433D60;
+}
+.team .profile h3 {
+  margin-top: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.team .profile .xazi {
+  width: 154px;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+  margin-top: 15px;
+}
+.team .profile p {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.team .profile button {
+  margin-top: 35px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 15px 40px;
+  color: #343045;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  border: none;
+}
+.team .profile .photo1 {
+  background-image: url(/Assets/images/foto2.png);
+  width: 190.92px;
+  height: 190.92px;
+  border-radius: 100px;
+  box-shadow: #433D60;
+}
+.team .profile .photo2 {
+  background-image: url(/Assets/images/foto3.png);
+  width: 190.92px;
+  height: 190.92px;
+  border-radius: 100px;
+  box-shadow: #433D60;
+}
+.team .profile .photo3 {
+  background-image: url(/Assets/images/foto4.png);
+  width: 190.92px;
+  height: 190.92px;
+  border-radius: 100px;
+  box-shadow: #433D60;
 }/*# sourceMappingURL=styles.css.map */
