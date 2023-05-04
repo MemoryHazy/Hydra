@@ -38,7 +38,7 @@ header {
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 12px;
+                font-size: 15px;
                 line-height: 15px;
                 text-decoration: none;
             }
@@ -479,15 +479,51 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-top: 100px;
 
 
     .banner {
+        position: relative;
         display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         width: 100%;
-        background: #211E2E;
+        width: 1278px;
+        height: 303px;
+        background-color: #211E2E;
         box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
         border-radius: 160px;
         background-image: url(/Assets/images/gogo.png);
+
+        .srol {
+            position: absolute;
+            background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+            padding: 25px;
+            border-radius: 50px;
+            bottom: -10%;
+            box-shadow: rgba(14, 14, 14, 0.32);
+        }
+
+
+        h2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #ffffff;
+        }
+
+
+        h5 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 44px;
+            color: #ffffff;
+        }
     }
 
     .partners {
