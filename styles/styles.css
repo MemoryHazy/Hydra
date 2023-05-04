@@ -530,4 +530,15 @@ header .hero .hero-photo {
   line-height: 44px;
   color: #ffffff;
   margin-top: 30px;
+}
+.login .login-form {
+  margin-top: 65px;
+  display: flex;
+}
+.login .login-form input {
+  width: 524px;
+  height: 72px;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
 }/*# sourceMappingURL=styles.css.map */

@@ -639,4 +639,17 @@ header {
             margin-top: 30px;
         }
     }
+
+
+    .login-form {
+        margin-top: 65px;
+        display: flex;
+        input {
+            width: 524px;
+            height: 72px;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+        }
+    }
 }
