@@ -644,12 +644,156 @@ header {
     .login-form {
         margin-top: 65px;
         display: flex;
+        flex-direction: column;
         input {
             width: 524px;
             height: 72px;
             border: 2px solid #FFFFFF;
             border-radius: 40px;
             background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+            color: #ffffff;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            padding-left: 40px;
+        }
+
+        .inputs {
+            margin-top: 40px;
+            
+        }
+
+
+        #Subject {
+            margin-top: 40px;
+            width: 96%;
+            
+        }
+        
+
+        #tellus {
+            margin-top: 35px;
+            width: 96%;
+            height: 210px;
+        }
+
+
+    }
+
+
+    button {
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        border-radius: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #343045;
+        padding: 15px 55px;
+        border: none;
+        margin-top: 65px;
+        margin-bottom: 100px;
+    }
+}
+
+
+footer {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+
+    .footer-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+
+
+        .footer-services {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                align-items: center;
+                padding: 10px;
+            }
+
+            a { 
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            text-decoration: none;
+
+            }
+        }
+
+
+        .icons {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #ffffff;
+            }
+
+            .icon {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            button {
+                width: 250px;
+                padding: 15px 40px;
+                color: #343045;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+                border-radius: 40px;
+                border: none;
+            }
         }
     }
+
+    .line {
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        width: 100%;
+        margin-top: 70px;
+        height: 2px;
+    }
+
+    p {
+        
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #ffffff;
+margin-top: 50px;
+margin-bottom: 70px;
+    }
+
 }
