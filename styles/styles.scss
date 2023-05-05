@@ -645,6 +645,7 @@ header {
         margin-top: 65px;
         display: flex;
         flex-direction: column;
+
         input {
             width: 524px;
             height: 72px;
@@ -786,14 +787,13 @@ footer {
 
     p {
         
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-color: #ffffff;
-margin-top: 50px;
-margin-bottom: 70px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 70px;
     }
-
 }
